@@ -1,0 +1,50 @@
+/* 1: behind eyes dark grey */
+circle {
+    fill: #5f5f5f;
+}
+
+/* 2: ear path (and nose) dark gray) */
+path {
+    stroke: #5f5f5f;
+    stroke-width: 8px;
+    fill: #000000;
+}
+
+/* eyes */
+.small {
+    fill: white;
+}
+
+/* pupils */
+.contained .small {
+    fill: #573d29;
+}
+
+rect {
+    opacity: 0;
+}
+
+/* ovr mouth area and blocking rect */
+.contained circle, .contained rect {
+    fill: #c0c0c0;
+    stroke: none;
+    opacity: 1;
+
+}
+
+/* mouth */
+#interactive {
+    fill: #c0c0c0;
+    stroke: #bd250d;
+    stroke-width: 4px;
+}
+
+/* mouth red */
+#interactive:hover {
+    fill: #bd250d;
+}
+
+
+path:last-of-type {
+    stroke: none;
+}
